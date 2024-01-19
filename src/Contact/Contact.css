@@ -1,0 +1,25 @@
+.contact-first-page{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    align-items: center;
+    justify-content: space-around;
+    padding:8% 0%;
+    gap:5%;
+}
+.contact-input-container{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+}
+@media screen and (max-width:850px) {
+    .contact-first-page{
+        grid-template-columns: 100%;
+        padding: 10%;
+    }
+    .contact-input-container{
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: space-around;
+    }
+}

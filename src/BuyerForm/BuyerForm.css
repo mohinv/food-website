@@ -1,0 +1,23 @@
+.BuyerForm{
+    width: fit-content;
+    background-color: white;
+    padding: 10vh 20px;
+    margin:auto;
+    animation: BuyerFormAnimate 1s 0s linear 1;
+    }
+    @keyframes BuyerFormAnimate {
+        from{
+            transform: scale(0.1);
+        }
+        to{
+            transform: scale(1);
+        }
+    }
+    .BuyerForm input{
+        height: 30px;
+        width: 100%;
+        border:none;
+        border-bottom: 1px solid grey;
+        margin:10px auto;
+        outline: none;
+    }

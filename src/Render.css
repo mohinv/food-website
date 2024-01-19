@@ -1,0 +1,8 @@
+.bg-blur{
+    width: 100%;
+    height: max-content;
+    background: url("https://media.istockphoto.com/id/1130714046/photo/empty-dark-wooden-table-in-front-of-abstract-blurred-bokeh-background-of-restaurant-can-be.jpg?b=1&s=170667a&w=0&k=20&c=81AFO47LmBWjAa8643R4JO4bFyBRPAkYlH23Cc6t3Cw=") no-repeat center fixed ;
+    background-size: 100% 100%;
+    /* filter: blur(5px); */
+    /* grid-template-columns: 50% 50%; */
+}
